@@ -5,7 +5,7 @@ This Java web application has been written to provide you with a quick and easy 
 
 ## Quick Start
 
-Getting started with the sample is easy. The walkthrough relies on various prerequisites being met by the software environment offered by the target machine.Note that an expert Java developer should be able to easily apply the techniques shown here to any other application server.  If you are unfamilar with JBoss or Java application servers, ***you should use the [Java walkthrough here](https://github.com/WindowsAzureAD/activedirectoryauthenticationlib-sample-for-java/wiki/Windows-Azure-Active-Directory-WebSSO-with-Java)***. 
+Getting started with the sample is easy. The walkthrough relies on various prerequisites being met by the software environment offered by the target machine.Note that an expert Java developer should be able to easily apply the techniques shown here to any other application server.  If you are unfamilar with JBoss or Java application servers, ***you should use the [Windows Azure Active Directory Java Wiki here](https://github.com/WindowsAzureAD/activedirectoryauthenticationlib-sample-for-java/wiki/Windows-Azure-Active-Directory-WebSSO-with-Java)***. 
 
 ### Step 1: Register a Windows Azure AD Tenant
 
