@@ -1,7 +1,7 @@
 #Windows Azure Active Directory Java Library Sample Application
 
 
-This node.js web application has been written to provide you with a quick and easy way to set up your first app that connects to Windows Azure Active Directory. This demonstration application, written to run in on any platform, will provide you with the libraries requierd to build your own java applications. We've released all of the source code for this running example in GitHub under an Apache 2.0 license, so feel free to clone (or even better, fork!) and provide feedback on the forums.
+This Java web application has been written to provide you with a quick and easy way to set up your first app that connects to Windows Azure Active Directory. This demonstration application, written to run in on any platform, will provide you with the libraries requierd to build your own java applications. We've released all of the source code for this running example in GitHub under an Apache 2.0 license, so feel free to clone (or even better, fork!) and provide feedback on the forums.
 
 ## Quick Start
 
