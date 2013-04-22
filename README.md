@@ -22,7 +22,7 @@ For this sample to work you will need to specify an **APP URL** of **http://loca
 ### Step 3: Download Pre-Requisites for your platform
 
 Java-specific Requisites
-* [Java Runtime Environment 1.6](http://www.oracle.com/technetwork/java/javase/downloads/jre-6u31-download-1501637.html)* [JBoss 7.1.1.Final](http://www.jboss.org/jbossas/downloads/)* [JBoss Studio](https://devstudio.jboss.com/earlyaccess/)
+* [Java Runtime Environment 7](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)* [JBoss 7.1.1.Final](http://www.jboss.org/jbossas/downloads/)* [JBoss Studio 7](https://devstudio.jboss.com/earlyaccess/)
 ### Step 4: Download the Sample application and update dependencies
 
 From your shell or command line:
