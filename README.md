@@ -42,7 +42,7 @@ From your shell or command line:
 
 The configuration values you'll need to edit are found in ```web.xml ``` located in the `src/main/webapp/WEB-INF` folderand documented in the code. As much as possible they will match the fields in the Azure Management Portal as discussed in [Adding, Updating, and Removing an App](http://msdn.microsoft.com/en-us/library/windowsazure/dn132599.aspx).
 
-After you have configured the correct values, use the process you have established to deploy WAR files in JBoss to run the sample application. If you are unfamilar with JBoss, ***you should use the [Java walkthrough here](https://github.com/WindowsAzureAD/activedirectoryauthenticationlib-sample-for-java/wiki/Windows-Azure-Active-Directory-WebSSO-with-Java)***.
+After you have configured the correct values, use the process you have established to deploy WAR files in JBoss to run the sample application. If you are unfamilar with JBoss, ***you should use the [Windows Azure Active Directory Java Wiki here](https://github.com/WindowsAzureAD/activedirectoryauthenticationlib-sample-for-java/wiki/Windows-Azure-Active-Directory-WebSSO-with-Java)***.
 
 For those familiar with JBoss, here is a refresher to load a client side WAR file:
 
