@@ -1,11 +1,11 @@
 #Windows Azure Active Directory Java Library Sample Application
 
 
-This Java web application has been written to provide you with a quick and easy way to set up your first app that connects to Windows Azure Active Directory. This demonstration application, written to run in on any platform, will provide you with the libraries requierd to build your own java applications. We've released all of the source code for this running example in GitHub under an Apache 2.0 license, so feel free to clone (or even better, fork!) and provide feedback on the forums.
+This Java web application has been written to provide you with a quick and easy way to set up your first app that connects to Windows Azure Active Directory. This demonstration application, written to run in on any platform, will provide you with the libraries requierd to build your own Java applications. We've released all of the source code for this running example in GitHub under an Apache 2.0 license, so feel free to clone (or even better, fork!) and provide feedback on the forums.
 
 ## Quick Start
 
-Getting started with the sample is easy. The walkthrough relies on various prerequisites being met by the software environment offered by the target machine.Note that an expert Java developer should be able to easily apply the techniques shown here to any other application server. 
+Getting started with the sample is easy. The walkthrough relies on various prerequisites being met by the software environment offered by the target machine.Note that an expert Java developer should be able to easily apply the techniques shown here to any other application server.  If you are unfamilar with JBoss or Java application servers, ***you should use the [Java walkthrough here](https://github.com/WindowsAzureAD/activedirectoryauthenticationlib-sample-for-java/wiki/Windows-Azure-Active-Directory-WebSSO-with-Java)***. 
 
 ### Step 1: Register a Windows Azure AD Tenant
 
@@ -21,8 +21,15 @@ For this sample to work you will need to specify an **APP URL** of **http://loca
 
 ### Step 3: Download Pre-Requisites for your platform
 
-Java-specific Requisites
+
+#### Java-specific Requisites
 * [Java Runtime Environment 7](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)* [JBoss 7.1.1.Final](http://www.jboss.org/jbossas/downloads/)* [JBoss Studio 7](https://devstudio.jboss.com/earlyaccess/)
+#### SIDEBAR: Need A Java Application Server? Get one from Windows Azure
+
+With Windows Azure, you can use a virtual machine to provide server capabilities. As an example, a virtual machine running on Windows Azure can be configured to host a Java application server, such as Apache Tomcat or JBoss (which this walkthrough uses). 
+
+[Find out more here](http://www.windowsazure.com/en-us/develop/java/tutorials/tomcat-on-a-virtual-machine/)
+
 ### Step 4: Download the Sample application and update dependencies
 
 From your shell or command line:
@@ -33,9 +40,9 @@ From your shell or command line:
 ### Step 5: Edit web.config and run application
 
 
-The configuration values you'll need to edit are found in ```web.config ``` and documented in the code. As much as possible they will match the fields in the Azure Management Portal as discussed in [Adding, Updating, and Removing an App](http://msdn.microsoft.com/en-us/library/windowsazure/dn132599.aspx).
+The configuration values you'll need to edit are found in ```web.xml ``` located in the `src/main/webapp/WEB-INF` folderand documented in the code. As much as possible they will match the fields in the Azure Management Portal as discussed in [Adding, Updating, and Removing an App](http://msdn.microsoft.com/en-us/library/windowsazure/dn132599.aspx).
 
-After you have configured the correct values, use the process you have established to deploy WAR files in JBoss to run the sample application. If you are unfamilar with JBoss, ***you should use the Java walkthrough here***.
+After you have configured the correct values, use the process you have established to deploy WAR files in JBoss to run the sample application. If you are unfamilar with JBoss, ***you should use the [Java walkthrough here](https://github.com/WindowsAzureAD/activedirectoryauthenticationlib-sample-for-java/wiki/Windows-Azure-Active-Directory-WebSSO-with-Java)***.
 
 For those familiar with JBoss, here is a refresher to load a client side WAR file:
 
