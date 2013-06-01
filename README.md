@@ -5,7 +5,10 @@ This Java web application has been written to provide you with a quick and easy 
 
 ## Quick Start
 
-Getting started with the sample is easy. The walkthrough relies on various prerequisites being met by the software environment offered by the target machine.Note that an expert Java developer should be able to easily apply the techniques shown here to any other application server.  If you are unfamilar with JBoss or Java application servers, ***you should use the [Windows Azure Active Directory Java Wiki here](https://github.com/WindowsAzureAD/activedirectoryauthenticationlib-sample-for-java/wiki/Windows-Azure-Active-Directory-WebSSO-with-Java)***. 
+Getting started with the sample is easy. The walkthrough relies on various prerequisites being met by the software environment offered by the target machine.
+
+Note that an expert Java developer should be able to easily apply the techniques shown here to any other application server.  If you are unfamilar with JBoss or Java application servers, ***you should use the [Windows Azure Active Directory Java Wiki here](https://github.com/WindowsAzureAD/activedirectoryauthenticationlib-sample-for-java/wiki/Windows-Azure-Active-Directory-WebSSO-with-Java)***.
+ 
 
 ### Step 1: Register a Windows Azure AD Tenant
 
@@ -23,18 +26,25 @@ For this sample to work you will need to specify an **APP URL** of **http://loca
 
 
 #### Java-specific Requisites
-* [Java Runtime Environment 7](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)* [JBoss 7.1.1.Final](http://www.jboss.org/jbossas/downloads/)* [JBoss Studio 7](https://devstudio.jboss.com/earlyaccess/)
-#### SIDEBAR: Need A Java Application Server? Get one from Windows Azure
+
+* [Java Runtime Environment 7](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
+* [JBoss 7.1.1.Final](http://www.jboss.org/jbossas/downloads/)
+* [JBoss Studio 7](https://devstudio.jboss.com/earlyaccess/)
+
+
+#### SIDEBAR: Need A Java Application Server? Get one from Windows Azure
 
 With Windows Azure, you can use a virtual machine to provide server capabilities. As an example, a virtual machine running on Windows Azure can be configured to host a Java application server, such as Apache Tomcat or JBoss (which this walkthrough uses). 
 
 [Find out more here](http://www.windowsazure.com/en-us/develop/java/tutorials/tomcat-on-a-virtual-machine/)
 
-### Step 4: Download the Sample application and update dependencies
+
+
+### Step 4: Download the Sample application and update dependencies
 
 From your shell or command line:
 
-* `$ git clone git@github.com:brandwe/azure-sdk-for-java-samples.git`
+* `$ git clone git@github.com:windowsazuread/azure-sdk-for-java-samples.git`
 * `maven install`
 
 ### Step 5: Edit web.config and run application
